@@ -1,0 +1,449 @@
+/*for Phone*/
+body {
+  background-color: #FCF7E5;
+  font-family: serif;
+}
+
+/*header*/
+header {
+  background-color:#F4DA7C;
+  width: 100%;
+}
+
+/*image sizes*/
+img {
+  height: 100%;
+  width: 100%;
+}
+.logo img {
+  width: 30%;
+  height: 30%;
+}
+.socialmedia img {
+  width: 50px;
+  height: 50px;
+}
+/*links*/
+a, button, .input, .account a {
+  background-color: #F4DA7C;
+  color: #F53260;
+  font-family: serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: 0px;
+  margin: auto;
+  text-decoration: none;
+}
+.links {
+  padding-left: 2%;
+  display: flex;
+  justify-content: center;
+}
+.totop{
+  font-size: 20px;
+  position: fixed;
+  left: 88%;
+  bottom: 2%;
+  opacity: 0.8;
+}
+.totop:hover {
+  opacity: 1;
+}
+
+/*dropdown list*/
+ .dropdown{
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  margin: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropdown-content a {
+  text-align: center;
+  font-size: 12px;
+  padding: 6px 2px 6px 2px ;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+footer {
+  
+  color: #F53260;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+}
+/*newsletter*/
+.newsletter {
+  background-color: #F4DA7C;
+  border: 7px solid #4a515b;
+  border-radius: 15px;
+  padding: 20px;
+  display: none;
+}
+.newsletter p {
+  color: #4A515B;
+  font-family: serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.socialmedia a {
+  padding: 2px;
+  display: inline;
+  margin-left: 8%;
+  margin-right: 7%;
+}
+
+/*h1, h2, h3, h4*/
+section h1{
+  display: none;
+}
+h2 {
+  color: #4A515B;
+  font-size: 40px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+h3{
+  color: #4A515B;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+h4{
+  color: #4A515B;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+/*homepage*/
+.introduction {
+  font-size: 20px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.home {
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 18px;
+}
+.home a {
+  background-color: #FCF7E5;
+}
+.cake {
+  padding-top:15px;
+}
+
+/*recipes*/
+.chocolatecake p, .bagels p,{
+  margin-right: 10%;
+  margin-left: 10%;
+  color: #F53260;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+.preptime {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.ingredients {
+  font-size: 16px;
+  margin-right: 9%;
+  margin-left: 9%;
+}
+.directions {
+  font-size: 16px;
+  margin-right: 10%;
+  margin-left: 4%;
+}
+table, tr {
+  font-size: 16px;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid #4a515b;
+  width: 30%;
+  border-collapse: collapse;
+}
+table {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+}
+.header {
+  border-bottom: hidden;
+}
+textarea {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 100px;
+}
+
+/*Sign in and sign up*/
+.contact .newsletter {
+  margin-top: 30px;
+  display: inline-block;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.account  {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.account a {
+  margin-top: 10px;
+}
+
+/*for iPad*/
+@media only screen and (min-width:768px){
+  /*header*/
+  .logo img {
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+  }
+  .chocolatecake img, .bagels img {
+    width: 70%;
+    height: 70%;
+    margin-left: 16%;
+    margin-right: 25px;
+  }
+  a, button, .input, .account a {
+    font-size: 20px;
+  }
+  .links{
+  display: inline;
+  display: flex;
+  justify-content: center;
+  }
+  .dropdown-content a {
+    font-size: 18px;
+    padding: 10px 8px 10px 8px ;
+  }
+  .totop {
+    font-size: 20px;
+    left: 85%;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+
+  /*homepage*/
+  .introduction {
+    font-size: 25px;
+  }
+  .home {
+    font-size: 25px;
+  }
+
+  /*recipes*/
+  .chocolatecake p, .bagels p {
+    font-size: 22px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .preptime {
+    font-size: 18px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .ingredients {
+    font-size: 18px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .directions {
+    font-size: 18px;
+    margin-right: 7%;
+    margin-left: 5%;
+  }
+  table {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+  tr {
+    font-size: 18px;
+  }
+  textarea {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+
+  /*Sign up and sign in*/
+  .contact .newsletter {
+    margin-left: 21%;
+    margin-right: 21%;
+  }
+  .account {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+/*for desktop/full screen*/
+@media only screen and (min-width: 1000px){
+  /*header*/
+  header a, button {
+    font-size: 25px;
+    padding: 10px 60px 10px 60px;
+  }
+  .links {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content a {
+    padding: 12px 30px;
+  }
+  .logo {
+    display: inline-block;
+  }
+  .logo img {
+    height: 150px;
+    width: 150px;
+  }
+  .newsletter {
+    display: block;
+    margin-left: 60%;
+    margin-right: 5%;
+    margin-top: 5%;
+    float: right;
+    position: absolute;
+    clear: both;
+  }
+
+    /*h2, h3 and h4*/
+  h2 {
+    margin-right: 50%;
+    margin-left: 5%;
+  }
+  h3 {
+    font-size: 25px;
+    margin-right: 60%;
+    margin-left: 10%;
+  }
+  h4 {
+    font-size: 20px;
+    margin-right: 60%;
+    margin-left: 15%;
+  }
+
+    /*homepage*/
+  .introduction {
+    margin-right: 52%;
+    margin-left: 7%;
+  }
+  .home p {
+    margin-right: 52%;
+    margin-left: 5%;
+    font-size: 18px;
+  }
+  .home img {
+    margin-right: 52%;
+    margin-left: 0.5%;
+    width: 50%;
+    height: 50%;
+  }
+
+  /*recipes*/
+  div.quotations {
+    position: absolute;
+    float: left;
+    margin-top: 70px;
+  }
+  div.quotations p {
+    font-size: 18px;
+    margin-left: 740px;
+    margin-right: 30px;
+    padding: 5px;
+  }
+
+  .ChocolateCake, .bagel {
+    width: 50%;
+    margin-right: 60%;
+    margin-left: 5%;
+  }
+  .chocolatecake img, .bagels img {
+    height: 50%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 50%;
+  }
+  .chocolatecake p, .bagels p {
+    margin-right: 50%;
+    margin-left: 10%;
+  }
+  .preptime {
+    margin-right: 52%;
+    margin-left: 4%;
+  }
+  .ingredients form {
+    margin-right: 52%;
+    margin-left: 1%;
+  }
+  .directions {
+    margin-right: 45%;
+    margin-left: 4%;
+  }
+  table {
+    width: 30%;
+    margin-top: 40px;
+    margin-right: 70%;
+    margin-left: 15%;
+  }
+  textarea {
+    margin-right: 70%;
+    margin-left: 25%;
+  }
+
+  /*sign in and sign up*/
+  .contact .newsletter {
+    position: absolute;
+    top: 55%;
+    margin-left: 60%;
+    margin-right: 5%;
+  }
+  .account {
+    margin-left: 5%;
+    margin-right: 40%;
+  }
+  .account h2 , .account h4 {
+    margin-left: 0%;
+    margin-right: 30%;
+  }
+  .account a{
+    margin-top: 20px;
+  }
+}
